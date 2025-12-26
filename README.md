@@ -62,7 +62,7 @@ Sekurang-kurangnya memiliki kolom sebagai berikut.
 - `tanggal`: periode bulan ditulis dalam format tanggal di ISO 8601 dan selalu ditulis sebagai awal bulan
 - `prev_cum_change`: nilai `cum_change` pada bulan sebelumnya (lihat metrik `headcount_change`)
 - `retaining`: hasil kalkulasi `num_resign` dan `bouncing_hires` (lihat metrik `headcount_change`)
-- `retention_rate`: kategorisasi periode waktu
+- `retention_rate`: hasil kalkulasi `prev_cum_change` dan `retaining`
 - `dim`: kategorisasi periode waktu
 
 
